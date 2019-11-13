@@ -19,3 +19,4 @@ shadow DOM: encapsulation:ViewEncapsulation.Enumerated,Native,None ENUM
 
 ngContent and ng-container with select
 
+search ngForOf in angular.io to know valid attribute of ngFor directive.

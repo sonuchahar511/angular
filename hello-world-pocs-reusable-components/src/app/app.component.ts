@@ -15,6 +15,11 @@ export class AppComponent {
     isFavorite : true
   }
 
+  tweet={
+    likesCount:10,
+    isLiked:false
+  }
+
   onFavChanged(eventArngs:FavoriteChangedEventArgs){
     alert("Favorite onFavChanged:: "+eventArngs.newValue);
   }
